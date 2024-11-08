@@ -82,7 +82,7 @@
   .card__profile{
     display: flex;
     align-items: center;
-    gap: 5.5px;
+    gap: 6px;
   }
   .card__profile__name{
     font-size: 14px;
