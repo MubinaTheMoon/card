@@ -30,23 +30,25 @@
     font-family: "Figtree" ;
   }
   body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F4D04E;
   }
   .card{
-    width: 384px;
-    height: 522px;
+    max-width: 384px;
+    min-height: 522px;
     border: 1px solid black;
     padding: 24px;
-    margin: 300px auto 0;
     background-color: white;
     border-radius: 20px;
     box-shadow: 8px 8px 0px #111111;
   }
 
   .card__process{
-    width: 88px;
     padding: 4px 12px;
-    display: block;
+    display: inline-block;
     background: #F4D04E;
     margin-top: 24px;
     margin-bottom: 12px;
@@ -58,7 +60,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    font-family: "Figtree" ;
+    font-family: "Figtree";
+    display: block;
   }
   .card__title{
     font-weight: 800;
@@ -66,9 +69,14 @@
     line-height: 36px;
     padding-top: 12px;
     padding-bottom: 12px;
+}
+.card__title a{
+    color: #111111;
+    text-decoration: none;
     transition: 0.5s;
+
   }
-  .card__title:hover{
+  .card__title:hover a{
     cursor: pointer;
     color: #F4D04E;
   }
