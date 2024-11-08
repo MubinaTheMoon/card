@@ -1,0 +1,93 @@
+/* figtree-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/figtree-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* figtree-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/figtree-v6-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* figtree-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/figtree-v6-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree" ;
+  }
+  body{
+    background-color: #F4D04E;
+  }
+  .card{
+    width: 384px;
+    height: 522px;
+    border: 1px solid black;
+    padding: 24px;
+    margin: 300px auto 0;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px #111111;
+  }
+
+  .card__process{
+    width: 88px;
+    padding: 4px 12px;
+    display: block;
+    background: #F4D04E;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    font-weight: 900;
+    font-family: "Figtree" ;
+  }
+  .card__date{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Figtree" ;
+  }
+  .card__title{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: 0.5s;
+  }
+  .card__title:hover{
+    cursor: pointer;
+    color: #F4D04E;
+  }
+  .card__description{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #7F7F7F;
+    padding-bottom: 24px;
+  }
+  .card__profile{
+    display: flex;
+    align-items: center;
+    gap: 5.5px;
+  }
+  .card__profile__name{
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+    color: #111111;
+  }
+
