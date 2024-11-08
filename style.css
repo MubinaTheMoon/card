@@ -76,7 +76,7 @@ body{
     transition: 0.5s;
 
   }
-  .card__title:hover a{
+  .card__title a:hover {
     color: #F4D04E;
   }
   .card__description{
