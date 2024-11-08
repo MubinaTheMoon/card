@@ -37,8 +37,6 @@ body{
     font-family: "Figtree" ;
   }
   .card{
-    max-width: 384px;
-    min-height: 522px;
     border: 1px solid black;
     padding: 24px;
     background-color: white;
