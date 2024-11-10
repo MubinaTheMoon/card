@@ -37,13 +37,17 @@ body{
     font-family: "Figtree" ;
   }
   .card{
+    width: 384px;
     border: 1px solid black;
     padding: 24px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 8px 8px 0px #111111;
   }
-
+  .card__top{
+    display: flex;
+    flex-direction: column;
+  }
   .card__process{
     padding: 4px 12px;
     display: inline-block;
